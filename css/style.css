@@ -54,7 +54,7 @@ p{
    top: 0;
    left: 0;
    z-index: 1000;
-  background: #31344e url(/img/background.png) no-repeat center top / cover;
+  background: #31344e url(/background.png) no-repeat center top / cover;
 
 }
 
