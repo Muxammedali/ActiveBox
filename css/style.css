@@ -51,7 +51,8 @@ p {
   top: 0;
   left: 0;
   z-index: 1000;
-  background: #31344e url(../img/header/background.png) no-repeat center top / cover;
+  background: #31344e url(../img/header/background.png) no-repeat center top /
+    cover;
 }
 
 .header__inner {
@@ -202,29 +203,29 @@ p {
 
 .works {
   display: flex;
-  flex-wrap: wrap; /*что бы элементы перескакивали 
-   на новую строку */
+  flex-wrap: wrap; /*so that the elements would jump 
+on a new line */
 }
 
 .works__item {
   width: 25%;
   position: relative;
-  overflow: hidden; /*скрываем всё,что будет вылезать за пределы нашего блдока */
+  overflow: hidden; /*We hide everything that will crawl outside our block*/
   height: 350px;
   background-color: #2b2e4a;
 
-  border-bottom: 1px solid #fff; /*белая граница между фотками */
+  border-bottom: 1px solid #fff; /*The whit(e) border between the pictures*/
   border-right: 1px solid #fff;
 }
 
 .works__item:hover .works__content {
-  opacity: 1; /*появляется элемент с works__content*/
+  opacity: 1; /*an element appearsс works__content*/
 }
 
 .works__photo {
-  position: absolute; /*теперь наша картинка будет находится внутри works__item и позиционироватся абсолютно относительно данного блока  */
+  position: absolute; /*Now our picture will be located inside Works__item and will be positioned absolutely relative to this block  */
   top: 50%;
-  left: 50%; /*то есть прижимаем кверху в лево */
+  left: 50%; /*that is, we press up in the left */
   z-index: 1;
 
   transform: translate3d(-50%, -50%, 0);
@@ -237,7 +238,7 @@ p {
   width: 100%;
   height: 100%;
   background-color: rgba(232, 69, 69, 0.9);
-  opacity: 0; /*блок пропал появляется только при наводе*/
+  opacity: 0; /*The block disappeared only when it is hung on it by the cursor*/
   text-align: center;
   position: absolute;
   top: 0;
@@ -316,7 +317,7 @@ p {
   width: 40px;
   height: 40px; /* Размеры */
 
-  border: 1px solid #e8ecee; /* Радиус скругления */
+  border: 1px solid #e8ecee; /* Radius of rounding */
 }
 
 .team__icon-box a:hover {
@@ -351,7 +352,7 @@ p {
 }
 .reviews__conternt {
   display: flex;
-  flex-direction: column; /*что бы каждый новый элемент был с новой строки */
+  flex-direction: column; /*so that each new element is from a new line */
 
   justify-content: center;
 
@@ -413,7 +414,7 @@ p {
 
 .footer__block {
   width: 33.33333%;
-  padding: 0 15px; /*padding с лева и справа что бы когда мы уменьшали экран они не слипались*/
+  padding: 0 15px; /*padding left and right so that when we reduce the screen they do not stick together*/
   text-align: center;
 }
 
@@ -438,7 +439,7 @@ p {
   transition: 0.2s linear;
   width: 40px;
   height: 40px;
-  border: 2px solid #ffffff; /* Радиус скругления */
+  border: 2px solid #ffffff; /*Radius of rounding */
   background-color: rgba(255, 255, 255, 0);
   margin-left: 7px;
 }
